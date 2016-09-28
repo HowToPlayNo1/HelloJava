@@ -154,5 +154,15 @@ public class SyntaxStudy {
         //Q的使用
         System.out.printf("1970-1-1 00:00:00 到现在所经过的毫秒数：%tQ%n", date);
     }
+
+    @Test
+    public void numTest(){
+        int a=1;
+        int b=a++;
+        System.out.printf("a:%d,b:%d %n%n",a,b);
+
+        int c=++b;
+        System.out.printf("b:%d,c:%d",b,c);
+    }
 }
 
